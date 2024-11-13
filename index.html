@@ -1,136 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
-        <title>Hello World</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="icon" href="Images/site-logo.png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Merienda:wght@300&family=Merriweather:wght@300&display=swap" rel="stylesheet">
+
+        <title>Edward Addo Jr</title>
     </head>
 
     <body>
-        <h1>My Resume/CV</h1>
-        <nav style="margin-bottom: 10%">
-            <h2>Navigation Menu</h2>
-            <ul>
-                <li>Resume Categories</li>
-                <ul >
-                    <li><a href="#profile">Profile</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#work-experience">Work Experience</a></li>
-                    <li><a href="#skills-and-interests">Skills and Hobbies</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                </ul>
+      <nav class="navigation">
+        <a class="nav-link" href="resume.html">Resume</a>
+        <a class="nav-link" href="">Projects</a>
+        <a class="nav-link" href="">Wishlist</a>
+      </nav>
+        <main id="start-page">
+            <div class="top-container">
+                <img id="cloud1" src="Images/cloud.png" alt="">
 
-                <li style="margin-top: 10px">Other Information</li>
-                <ul >
-                    <li><a href="contact.html">Contact Information</a></li>
-                    <li><a href="contact.html">Projects</a></li>
-                </ul>
+                <h1>I'm Edward</h1>
+                <p>An aspiring Software Developer</p>
 
-            </ul>
-        </nav>
+                <img id="cloud2" src="Images/cloud.png" alt="">
+                <img id="city-line" src="Images/city-line03.webp" alt="Torquoise city silhouette" width="600px">
+            </div>
+    
+            <div class="middle-container">
+                <div class="profile">
+                  <img src="Images/circle-profile.png" alt="Profile picture of myself" width="300px" id="profile-pic">
+                  <h2>Hello.</h2>
+                  <p>
+                    I'm a Computer Science undergrad at Dalhousie University. I love coding and learning about tech, but I also love Anime, especially Sword Art Online <i>(Click the pic!)</i>. 
+                    Hoping to launch my own software company one day. I love learning new things, but my curiosity often takes me in different directions. 
+                    In the end, I just want to succeed, and I’m all about doing that with my close friends.
+                  </p>
+                </div>
 
-        <main>
-            <section id="profile" style="overflow: hidden;">
-                <img src="Images/kirito-modified.png" alt="Portrait picture of Kirito" width="300px" style="float: left; margin-right: 20px;">
-                <h2 style="margin-top: 10%">Edward Kofi Addo Jr</h2>
-                <p>Computer Science student at Dalhousie University</p>
-                <p>Soon to be founder and CEO of <em>EAK</em> (Working Title)</p>
-                <p>Software Developer in training. Learning Python, Java, and Web Development</p>
-            </section>
+                <hr>
 
-            <hr>
+                <div class="skills">
+                  <h2>My Skills.</h2>
 
-            <section id="education">
-                    <h3>EDUCATION</h3>
-                    <ol>
-                        <li>
-                            <p>
-                                Dalhousie University <br>
-                                B.Sc. Computer Science
-                            </p>
+                  <div class="skill-row">
+                    <img class="skill-img" src="Images/coding-img-modified.png" alt="computer with icons">
+                    <h3>Programming and Development</h3>
+                    <p>
+                        I’m experienced in Python🐍 and currently expanding my skill set with Java☕️, JavaScript📄, and Web Development🌐. 
+                        I’m passionate about coding and problem-solving, with a focus on building efficient solutions and crea dynamic, full-stack applications.
+                    </p>
+                  </div>
+                
+                  <div class="skill-row">
+                    <img class="skill-img" src="Images/office-suite2.png" alt="MS Office Suite application icons">
+                    <h3>Microsoft Office Suite</h3>
+                    <p>
+                      I have extensive experience with the Microsoft Office Suite, including MS Word, Excel, PowerPoint, and Teams. I excel at creating well-organized, accurate data analysis records in Excel, detailed documents in Word, 
+                      and crafting visually appealing, informative and engaging presentations in PowerPoint.
+                    </p>
+                  </div>
+                </div>
 
-                        </li>
+                <hr>
 
-                        <li>
-                            <p>
-                                Kwame Nkrumah University of Science and Technology <br>
-                                B.Sc. Computer Science; First-Year: First Class
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Mfantsipim School <br>
-                                General Science
-                            </p>
-                        </li>
-                    </ol>
-                </section>
-
-            <hr>
-
-            <section id="work-experience">
-                <h3>Work Experience</h3>
-                <ol>
-                    <li style="margin-bottom: 15px;">
-                        Private Secretary <br>
-                        For Visually Impaired Professional
-                        <ul>
-                            <li>Managed all professional correspondences via emails and texts</li>
-                            <li>
-                                Supported client in various Microsoft Office Suite programs (Word, Excel, Outlook) to maintain
-                                productivity.
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li style="margin-bottom: 15px;">
-                            Sales Assistant/ IT Manager <br>
-                            PANAYADDO ENT., Kumasi, Ghana
-                            <ul>
-                                <li>Processed financial transactions for customers.</li>
-                                <li>Processed and completed customer orders and requests</li>
-                                <li>Supervised daily operations and managed inventory, ensured product availability and organization.</li>
-                            </ul>
-                    </li>
-
-                    <li style="margin-bottom: 15px;">
-                        E-learning Coordinator <br>
-                        Mfanstipim School, Cape Coast, Ghana
-                        <ul>
-                            <li>Provided guidance on Microsoft Office Suite applications and research, helping users improve productivity and proficiency.</li>
-                            <li>Supervised E-learning Centre (Computer Lab), assisting students and staff in digital literacy.</li>
-                            <li>Coordinated technical teaching equipment for classroom learning and ensured proper functionality.</li>
-                        </ul>
-                    </li>
-                </ol>
-            </section>
-
-            <hr>
-
-            <section id="skills-and-interests">
-                <h3>Skills and Interests</h3>
-                <ul type="circle">
-                    <li>
-                        <p><em><b>Technical</b>:</em> Experienced with Microsoft Office Suite (Word, Excel, Outlook, PowerPoint);
-                            Proficient in Python, Java, and JavaScript; Fast Learner in use of technical equipment
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            <em><b>Language</b>:</em> Fluent in English; Excellent written and verbal communication skills.
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            <em><b>Organization</b>:</em>  Strong ability to manage correspondence and coordinate project tasks with
-                            attention to detail.
-                        </p>
-                    </li>
-                </ul>
-            </section>
+                <div class="contact-me">
+                  <h2>Get In Touch</h2>
+                  <h3>If you want to connect or collaborate!</h3>
+                  <p id="contact-mssg">I'm always open to meeting new people and connecting with them. We can try out <a href="https://en.wikipedia.org/wiki/Waakye">Waakye</a> and code togther. <i>PS: If you don't know what <a href="https://en.wikipedia.org/wiki/Waakye">waakye</a> is then you're missing out!</i></p>
+                  <a class="btn" href="mailto:edaddojnr@gmail.com">Email Me</a>
+                </div>
+            </div>
+              
+            <div class="bottom-container">
+                <a class="footer-link" href="https://www.linkedin.com/in/edward-addo-jr-69b692311/">LinkedIn</a>
+                <a class="footer-link" href="https://github.com/Its-Kirito">Github</a>
+                <a class="footer-link" href="#start-page">My Site</a>
+                <p style="margin-bottom: 0; margin-top: 40px; color: white">© 2024 Edward Addo Jr.</p>
+            </div>
         </main>
+        
+        <script src="Js/script.js"></script>
     </body>
-
 </html>
